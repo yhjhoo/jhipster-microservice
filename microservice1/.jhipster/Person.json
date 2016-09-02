@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "3",
+            "fieldValidateRulesMaxlength": "60"
+        },
+        {
+            "fieldName": "age",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required",
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": "6",
+            "fieldValidateRulesMax": 100
+        }
+    ],
+    "changelogDate": "20160901080157",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "person",
+    "pagination": "pager",
+    "microserviceName": "microservice1",
+    "searchEngine": "no"
+}
